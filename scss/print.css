@@ -1,0 +1,19 @@
+header, footer {
+    display: none;
+}
+body {
+    background: none !important;
+    color: black !important;
+}
+
+a::after {
+    content: " (" attr(href) ") ";
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+@page {
+    margin: 50px;
+}

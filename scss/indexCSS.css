@@ -1,0 +1,129 @@
+:root{
+    font-family: 'Courier New';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.3125;
+    color: #85004B;
+    box-sizing: border-box; 
+}
+
+body{
+    margin: 0;
+    background-image: linear-gradient(to bottom right, #E667AF,#992667);
+    
+}
+header{
+    background-color: #992667;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.Nav-name{
+    font-family: 'Verdana';
+}
+ul{
+    list-style: none;
+}
+.name-site,h2{
+    padding-left: 30px;
+}
+/*figure{
+    background: #CCE9F4;
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 10px;
+}*/
+img{
+    display: block;
+    border-radius: 30px;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+figure{
+    background: #CCE9F4;
+    border-radius: 10px;
+    margin: 16px 0;
+}
+figure > img{
+    display: block;
+    border-radius: 30px;
+    max-width: 100%;
+    height: auto;
+    padding-left: 30px;
+}
+figcaption{
+    text-align: center;
+    padding-top: 5px;
+}
+.Pryklad-1{
+    padding-left: 30px;
+}
+.Pryklad-2{
+    padding-left: 50px;
+}
+.Pryklad-3{
+    padding-left: 100px;
+}
+a:hover{
+    color: #c099af;
+}
+a{
+    color: #460c2d;
+    text-decoration: none;
+}
+.Zakinchennya{
+    font-size: 12px;
+    font-weight: bold;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #E667AF;
+}
+td{
+    background: #dd8fbb;
+}
+.new-p{
+    margin-left: 50px;
+}
+.new-a{
+    margin-left: 100px;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+@media screen and (max-width: 820px) {
+  main {
+    width: 90%; 
+}
+ul {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+}
+li {
+    margin: 10px;
+}
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+header::before {
+  content: "This website may not display correctly in Internet Explorer 10 and below. Please consider upgrading your browser.";
+  display: block;
+  background-color: #ffcccc;
+  color: #ff0000;
+  padding: 10px;
+  text-align: center;
+}
+}
